@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+
+  "name": "Unclarified",
+  "short_name": "unclarified",
+  "description": "For those uninterested in clarification.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["*://*/*"],
+      "run_at": "document_end"
+    }
+  ]
+}
